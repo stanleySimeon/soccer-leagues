@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) . [![Netlify Status](https://api.netlify.com/api/v1/badges/4c9c35d4-77e5-4a47-b2c8-29f135c07587/deploy-status)](https://app.netlify.com/sites/msoccer/deploys)
 
 # soccer-teams
     This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that you will create making use of React and Redux.
