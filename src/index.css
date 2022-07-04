@@ -52,7 +52,7 @@
     background-color: #f2f2f2;
   }
 
-  #consumePage .card {
+  .card {
     padding: 10px;
     height: 16rem;
   }
@@ -91,7 +91,7 @@
     overflow: hidden;
   }
 
-  .card {
+  .item-list .card {
     list-style: none;
     width: 100%;
     padding: 10px;
