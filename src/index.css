@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  padding: 10px 10px 10px 15px;
+}
+
+#details_container {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .h1 {
+    font-size: 0.8rem;
+  }
+
+  #mic_gear {
+    width: 50px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  #homePage_header {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #121275;
+    color: #cacaca;
+  }
+
+  #consumePage {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: grid;
+    -ms-grid-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+  }
+
+  #consumePage .card {
+    padding: 10px;
+    height: 16rem;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 70%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #details_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  #details_container .top_leagues_img {
+    height: auto;
+    display: flex;
+    gap: 20px;
+    padding: 60px 0 10px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #08043d0d;
+  }
+
+  #details_container .item-list {
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .card {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .item-img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #cacaca;
+  }
+
+  .team-img {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121275;
+    color: #cacaca;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .h1 {
+    font-size: 0.8rem;
+  }
+
+  #mic_gear {
+    width: 50px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  #homePage_header {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #121275;
+    color: #cacaca;
+  }
+
+  #consumePage {
+    width: 60%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #consumePage .card {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 80%;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: large;
+  }
+
+  #details_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+
+  #details_container .top_leagues_img {
+    height: auto;
+    display: flex;
+    padding: 100px 0 20px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #08043d0d;
+  }
+
+  .top_leagues_img img {
+    width: 14rem !important;
+  }
+
+  #details_container .item-list {
+    width: 100%;
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  #details_container .item-list .card {
+    width: 70%;
+    height: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 10px;
+    gap: 20px;
+    background-color: rgb(253, 253, 255);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .item-img {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #cacaca;
+  }
+
+  .team-img {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121275;
+    color: #cacaca;
+    font-size: 0.8rem;
+  }
+}
